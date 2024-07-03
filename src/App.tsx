@@ -12,7 +12,7 @@ import SaveIcon from './assets/icon-save.svg';
 import Toast from "./components/toast/Toast";
 import {
   StyledApp, LeftSidebar, SidebarTitle, CreateDocumentButton, CreatedDocumentsContainer, DocumentContainer, DocumentIcon, IconImage, DocumentInfo, DocumentDate, DocumentName, ThemeContainer,ToggleButtonContainer, ToggleButton, ThemeIcon, TopSidebar, LeftSection, ToggleMenuIconsContainer, MenuIconImage, MarkdownTitle, VerticalBar, DocumentTitleContainer, DocumentTitleIcon, DocumentInfoContainer, PlaceholderText, DocumentNameText, DocumentNameInput, ActionsContainer, DeleteButton, DeleteIconImage, SaveButton, SaveIconImage, SaveButtonText, MarkdownEditorSection, TogglePreviewIcon
-} from './styles/app.styled';
+} from './app.styled';
 
 interface Document {
   name: string;
