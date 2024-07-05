@@ -78,12 +78,7 @@ export const StyledOutput = styled.div<{backgroundColorMode: 'light' | 'dark'}>`
         color: ${({ backgroundColorMode }) => (backgroundColorMode === 'light' ? '#000' : '#fff')};
         border-radius: 4px;
     }
-/* 
-    pre {
-        background-color: ${({ backgroundColorMode }) => (backgroundColorMode === 'light' ? '#7c8187' : '#2B2D31')};
-        color: ${({ backgroundColorMode }) => (backgroundColorMode === 'light' ? '#fff' : '#000')};
-        border-radius: 4px;
-    } */
+
 
     blockquote {
         background-color: #979797;

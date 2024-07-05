@@ -25,9 +25,7 @@ interface Document {
 function App() {
   
 
-  return (
-    <StyledApp className= {backgroundColorMode}>
-      
+
 
 const [isSidebarActive, setIsSidebarActive] = useState(false);
   const [backgroundColorMode, setBackgroundColorMode] = useState<'light' | 'dark'>('light');
@@ -142,7 +140,9 @@ const handleDeviceWidth = () => {
     setSelectedDocument(null);
   };
 
-
+  return (
+    <StyledApp className= {backgroundColorMode}>
+      
 
 {/* Left sidebar */}
       <LeftSidebar className={`${isSidebarActive ? 'active' : ''}`}>

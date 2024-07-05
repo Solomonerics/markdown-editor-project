@@ -77,6 +77,6 @@ export const StyledTextArea = styled.textarea<{ backgroundColorMode: 'light' | '
     }
 
     @media screen and (max-width: 412px) {
-        width: 100%;        
+        width: 100%;
     }
 `;
